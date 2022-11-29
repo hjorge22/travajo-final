@@ -1,0 +1,183 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  font-size: 1.3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/assets/img/490-degradados.jpg);
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+#encabezado {
+  width: 100%;
+  height: 10%;
+  height: 16%;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/assets/img/486-degradados.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0%;
+}
+
+nav {
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-right: 10%;
+  display: grid;
+  float: right;
+  grid-template-columns: 30% 30% 30%;
+}
+#imghome {
+  width: 40px;
+  float: left;
+  margin: 1rem;
+}
+#imgc {
+  width: 100px;
+}
+/* juegos.html */
+#imgj {
+  margin-top: 1rem;
+  width: 110px;
+}
+/* index.html */
+
+nav ul {
+  margin-left: 100%;
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: azure;
+}
+nav ul li a:hover {
+  cursor: pointer;
+  color: peachpuff;
+}
+#info {
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  width: 100%;
+  height: 70%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 40% 40%;
+}
+.imginfo {
+  width: 250px;
+}
+#info h3 {
+  margin-top: 0%;
+}
+#info a {
+  text-decoration: none;
+  color: azure;
+}
+/*   index.html ↑  */
+
+#casa {
+  margin-left: 1%;
+  width: 35px;
+  height: 35px;
+}
+#contenido {
+  width: 100%;
+  height: 70%;
+  text-align: justify;
+  margin: auto;
+  color: azure;
+}
+
+.t1 {
+  text-align: center;
+}
+h2 {
+  margin-left: 2%;
+}
+.p {
+  margin-left: 2%;
+}
+#lenguajes {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/assets/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+.l {
+  border: solid 0.5px;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.lp {
+  text-align: center;
+  margin-right: 2%;
+}
+.txtl {
+  display: inline-flex;
+  align-items: center;
+  text-align: justify;
+}
+.imgl {
+  max-width: 80%;
+}
+p {
+  margin-right: 5%;
+}
+#piep {
+  width: 100%;
+  height: 14%;
+  background-color: azure;
+  color: gray;
+  text-align: center;
+  margin-top: auto;
+}
+#piep a {
+  text-decoration: none;
+  color: dimgray;
+  font-size: 0.8rem;
+}
+
+/*juegos.html*/
+.cj {
+  padding-top: auto;
+  margin: 2rem;
+  max-width: 100%;
+  height: 70%;
+}
+.cj img {
+  width: 500px;
+}
+
+@media (min-width: 1366px) {
+  #imgc {
+    width: 120px;
+  }
+  .imginfo {
+    width: 310px;
+  }
+  #piep a {
+    font-size: 1.1rem;
+  }
+}
+
